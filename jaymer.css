@@ -112,5 +112,5 @@ main{
     width: 95%;
 }
 .backgroundborder img{
-
+    column-rule: red;
 }
