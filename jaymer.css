@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-color: white;
+}
+nav{
+    display: flex;
+    font-family: "Charlie Text", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Noto Sans", Ubuntu, "Droid Sans", 
+    "Helvetica Neue", sans-serif;
+}
+.logowebsite img{
+    margin-top: 17px;
+    margin-left: 16px;
+    margin-bottom: 13px;
+}
+.iconnav img{
+    transform: rotate(90deg);
+    margin-top: 25px;   
+    margin-left: 17px   ;
+}
+.logfree ul li:nth-child(2){
+    font-weight: 500;
+    padding: 3px;
+    list-style-type: none;
+    margin-top: 24px;
+    color: #0052cc;
+    border: solid #0052cc 1px;
+    margin-left: 12px;
+    border-radius: 3px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 1.02em;
+}
+.desktopnavbar{
+    display: none;
+}
+.logfree ul li:first-child{
+    display: none;
+}
+
+/* MAIN */
+
+main{
+    font-family: "Charlie Text", -apple-system, BlinkMacSystemFont,
+     "Segoe UI", Roboto, "Noto Sans", Ubuntu, "Droid Sans", "Helvetica Neue", sans-serif;
+    text-align: center;
+    background-color: #F4F5F7;
+}
+#jaymersection1{
+    padding-right: 5px;
+    padding-left: 5px;
+    color: #253858;
+}
+#jaymersection1 h1{
+    padding-top: 28px;
+    padding-bottom: 20px;
+    font-size: 1.80em;
+    font-weight: 650;
+}
