@@ -87,4 +87,30 @@ main{
     padding-right: 18px;
     font-size: 1em;
     font-weight: bold;
+    margin-bottom: 20px;
+}
+.p1flex{
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+.bitbucketlink{
+    display: flex;
+    justify-content: center;
+    column-gap: 5px;
+    margin-bottom: 20px;
+}
+.bitbucketlink a{
+    text-decoration: none;
+    color: #0065FF;
+    font-size: 1.05em;
+}
+.bitbucketlink img{
+    margin-top: 3px
+}
+.sampleimg img{
+    width: 95%;
+}
+.backgroundborder img{
+
 }
