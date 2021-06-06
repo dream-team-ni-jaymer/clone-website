@@ -4,14 +4,10 @@
 }
 header{
     background-color: white;
-<<<<<<< HEAD
-    
-=======
     position: fixed;
     width: 100%;
     box-shadow: 0 9px 13px -6px rgb(0 0 0 / 31%);
-    font-family: "Charlie Text", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Noto Sans", Ubuntu, "Droid Sans", "Helvetica Neue", sans-serif;;
->>>>>>> 51d087b70244db6ac4ebb73374ff680c91da28d3
+    font-family: "Charlie Text", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Noto Sans", Ubuntu, "Droid Sans", "Helvetica Neue", sans-serif;
 }
 nav{
     position: relative;
