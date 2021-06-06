@@ -23,7 +23,7 @@ nav{
 }
 .dropdownicons1{
     transform: rotate(90deg);
-    margin-left: 3px;
+    margin-left: 8px;
     margin-bottom: 5px;
 }
 .logfree ul li:nth-child(2) {
@@ -35,7 +35,7 @@ nav{
     padding:3px;
     list-style-type: none;
     margin-right: 16px;
-    font-size: 1.1em;
+    font-size: 1.04em;
     border-radius: 3px;
     padding-right: 10px;
     padding-left: 10px;
@@ -63,8 +63,28 @@ main{
     color: #253858;
 }
 #jaymersection1 h1{
-    padding-top: 28px;
+    margin-left: 13px;
+    margin-right: 13px;
+    padding-top: 22px;
     padding-bottom: 20px;
-    font-size: 1.80em;
-    font-weight: 650;
+    font-size: 1.96em;
+    font-weight: 630;
+}
+#jaymersection1 h3{
+    color: #42526E;
+    margin-right: 5px;
+    margin-left: 5px;
+    font-weight: 500;
+}
+#jaymersection1 button{
+    background-color: #0052cc;
+    border: none;
+    color: white;
+    padding: 10px;
+    border-radius: 3px;
+    margin-top: 25px;
+    padding-left: 18px;
+    padding-right: 18px;
+    font-size: 1em;
+    font-weight: bold;
 }
