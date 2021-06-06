@@ -111,6 +111,3 @@ main{
 .sampleimg img{
     width: 95%;
 }
-.backgroundborder img{
-    column-rule: red;
-}
