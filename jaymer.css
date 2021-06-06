@@ -4,35 +4,46 @@
 }
 header{
     background-color: white;
+<<<<<<< HEAD
     
+=======
+    position: fixed;
+    width: 100%;
+    box-shadow: 0 9px 13px -6px rgb(0 0 0 / 31%);
+    font-family: "Charlie Text", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Noto Sans", Ubuntu, "Droid Sans", "Helvetica Neue", sans-serif;;
+>>>>>>> 51d087b70244db6ac4ebb73374ff680c91da28d3
 }
 nav{
-    display: flex;
-    font-family: "Charlie Text", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Noto Sans", Ubuntu, "Droid Sans", 
-    "Helvetica Neue", sans-serif;
+    position: relative;
+    background-color: white;
+    width: 100%;
 }
-.logowebsite img{
-    margin-top: 17px;
+.logowebsite{
+    margin-bottom: -18px;
+}
+.logowebsite .logo{
+    margin-top: 18px;
     margin-left: 16px;
-    margin-bottom: 13px;
 }
-.iconnav img{
+.dropdownicons1{
     transform: rotate(90deg);
-    margin-top: 25px;   
-    margin-left: 17px   ;
+    margin-left: 3px;
+    margin-bottom: 5px;
 }
-.logfree ul li:nth-child(2){
-    font-weight: 500;
-    padding: 3px;
+.logfree ul li:nth-child(2) {
+    float: right;
+    position: relative;
+    bottom: 15px;
+    border: solid #2c6fd2 1px;
+    color: #2c6fd2;
+    padding:3px;
     list-style-type: none;
-    margin-top: 24px;
-    color: #0052cc;
-    border: solid #0052cc 1px;
-    margin-left: 12px;
+    margin-right: 16px;
+    font-size: 1.1em;
     border-radius: 3px;
-    padding-left: 10px;
     padding-right: 10px;
-    font-size: 1.02em;
+    padding-left: 10px;
+    font-weight: 500;
 }
 .desktopnavbar{
     display: none;
@@ -44,6 +55,7 @@ nav{
 /* MAIN */
 
 main{
+    padding-top: 80px;
     font-family: "Charlie Text", -apple-system, BlinkMacSystemFont,
      "Segoe UI", Roboto, "Noto Sans", Ubuntu, "Droid Sans", "Helvetica Neue", sans-serif;
     text-align: center;
