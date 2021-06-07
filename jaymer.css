@@ -49,7 +49,7 @@ nav{
 }
 
 /* MAIN */
-
+/* jaymer section 1 */
 main{
     padding-top: 80px;
     font-family: "Charlie Text", -apple-system, BlinkMacSystemFont,
@@ -110,4 +110,29 @@ main{
 }
 .sampleimg img{
     width: 95%;
+    margin-bottom: 30px;
+}
+
+/* Jaymer Section 2 */
+.choices{
+    background-color: white;
+    margin-top: -4px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.backgroundsection2 img{
+    width: 100%;
+}
+.choices h3{
+    color: #253858;
+}
+.freeunlimited img{
+    width: 37%;
+    margin-top: 30px;
+}
+.bestInClass img{
+    width: 55%;
+}
+.contineusdelivs img{
+    width: 43%;
 }
