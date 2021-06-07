@@ -1,0 +1,138 @@
+:root{
+    /* Color Variables */
+    --drkBlueGio: #253858; /* Main font Color */
+    --blueGio: #0052cc; /*Button and Link Color*/
+    --smokeGio: #f4f5f7; /*Card title bg color for standard and Demo box and Footer*/
+}
+
+/*--------General Stylings------*/
+*{
+    box-sizing: border-box;
+}
+
+
+#prices-Gio{
+    color: var(--drkBlueGio);
+}
+
+
+/* Price Section Styling */
+#prices-Gio{
+    background-color:white;
+}
+
+#prices-Gio .section-wrapper-Gio{
+    min-width: auto;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.grid-Gio{
+    display: grid;
+    grid-template-columns: 1;
+}
+
+.section-header,
+.card{
+    padding: 16px;
+}
+
+
+.section-header{
+    box-sizing: border-box;
+    min-width: auto;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.wrapper-Gio .card{
+    min-width: 66.66%;
+    max-width: 1fr;
+}
+
+.card{
+    height: 100%;
+}
+
+.card .card-title{
+    padding: 24px 12px;
+}
+
+.card-title, 
+.card-content{
+    background-color: white;
+}
+
+.standard .card-title{
+    background: var(--smokeGio);
+}
+
+.card .card-content{
+    padding-bottom: 54px;
+}
+
+.price-header{
+    font-size: 44px;
+    padding-top: 40px;
+    margin-bottom:12px;
+}
+
+.per-user{
+    font-size: 20px;
+}
+
+.users{
+    font-size: 14px;
+}
+
+
+
+.card-button{
+    text-decoration: none;
+    color: var(--blueGio);
+    font-weight: 500;
+    display: inline-block;
+    margin-top: 32px;
+    padding: 8.5px 16px;
+    margin-bottom: 24px;
+    border: 1px solid var(--blueGio);
+    border-radius: 3px;
+}
+
+/* Media Queries */
+
+@media (min-width: 362px){
+    .section-header h2{
+        font-size: 1.5rem;
+    }
+
+    .card-title h3{
+        font-size: 20px;
+    }
+
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+    /* #prices-Gio .section-header h2{
+        font-size: 1.5rem;
+        font-weight:500;
+        padding: 16px;
+    } */
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+    /* #prices-Gio .grid-Gio{
+    grid-template-columns: repeat(3,1fr);
+} */
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {}
+
+/* X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {}
+
+/* XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) {}

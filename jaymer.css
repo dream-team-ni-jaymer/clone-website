@@ -1,0 +1,241 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-color: white;
+    position: fixed;
+    width: 100%;
+    box-shadow: 0 9px 13px -6px rgb(0 0 0 / 31%);
+    font-family: "Charlie Text", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Noto Sans", Ubuntu, "Droid Sans", "Helvetica Neue", sans-serif;
+}
+nav{
+    position: relative;
+    background-color: white;
+    width: 100%;
+}
+.logowebsite{
+    margin-bottom: -18px;
+}
+.logowebsite .logo{
+    margin-top: 18px;
+    margin-left: 16px;
+}
+.dropdownicons1{
+    transform: rotate(90deg);
+    margin-left: 8px;
+    margin-bottom: 5px;
+}
+.logfree ul li:nth-child(2) {
+    float: right;
+    position: relative;
+    bottom: 15px;
+    border: solid #2c6fd2 1px;
+    color: #2c6fd2;
+    padding:3px;
+    list-style-type: none;
+    margin-right: 16px;
+    font-size: 1.04em;
+    border-radius: 3px;
+    padding-right: 10px;
+    padding-left: 10px;
+    font-weight: 500;
+}
+.desktopnavbar{
+    display: none;
+}
+.logfree ul li:first-child{
+    display: none;
+}
+
+/* MAIN */
+/* jaymer section 1 */
+main{
+    padding-top: 80px;
+    font-family: "Charlie Text", -apple-system, BlinkMacSystemFont,
+     "Segoe UI", Roboto, "Noto Sans", Ubuntu, "Droid Sans", "Helvetica Neue", sans-serif;
+    text-align: center;
+    background-color: #F4F5F7;
+}
+#jaymersection1{
+    padding-right: 5px;
+    padding-left: 5px;
+    color: #253858;
+}
+#jaymersection1 h1{
+    margin-left: 13px;
+    margin-right: 13px;
+    padding-top: 22px;
+    padding-bottom: 20px;
+    font-size: 1.96em;
+    font-weight: 630;
+}
+#jaymersection1 h3{
+    color: #42526E;
+    margin-right: 5px;
+    margin-left: 5px;
+    font-weight: 500;
+}
+#jaymersection1 button{
+    background-color: #0052cc;
+    border: none;
+    color: white;
+    padding: 10px;
+    border-radius: 3px;
+    margin-top: 25px;
+    padding-left: 18px;
+    padding-right: 18px;
+    font-size: 1em;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.p1flex{
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+.bitbucketlink{
+    display: flex;
+    justify-content: center;
+    column-gap: 5px;
+    margin-bottom: 20px;
+}
+.bitbucketlink a{
+    text-decoration: none;
+    color: #0065FF;
+    font-size: 1.05em;
+}
+.bitbucketlink img{
+    margin-top: 3px
+}
+.sampleimg img{
+    width: 95%;
+    margin-bottom: 30px;
+}
+
+/* Jaymer Section 2 */
+.choices{
+    background-color: white;
+    margin-top: -4px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.backgroundsection2 img{
+    width: 100%;
+}
+.choices h4{
+    color: #253858;
+}
+.choices p{
+    color:#091E42;
+}
+.freeunlimited img{
+    width: 130px;
+    margin-top: 30px;
+}
+.freeunlimited h4{
+    margin-top: 10px;
+    font-weight: 500;
+    font-size: 1.20em;
+    margin-bottom: 15px;
+}
+.freeunlimited p{
+    font-size: 1.04em;
+    margin-left: 4px;
+    margin-right: 4px;
+}
+.freeunlimited p span{
+    margin-left: 15px;
+}
+.bestInClass img{
+    width: 210px;
+    margin-top: 30px;
+}
+.bestInClass h4{
+    font-size: 1.18em;
+    margin-top: 15px;
+    font-weight: 500;
+}
+.bestInClass p{
+    margin-top: 15px;
+    font-size: 1.04em;
+}
+.contineusdelivs img{
+    width: 160px;
+    margin-top: 30px;
+}
+.contineusdelivs h4{
+    font-size: 1.20em;
+    margin-left: 50px;
+    margin-right: 50px;
+    font-weight: 500;
+    margin-bottom: 18px;
+}
+.contineusdelivs p{
+    padding-bottom: 20px;
+}
+
+.codeCollaboration{
+    background-color: white;
+}
+.codeCollaboration h1,h3,p{
+    color: #253858
+}
+.imgcodecollab img{
+    width: 91%;
+}
+.codeCollabexplain{
+    margin-top: 35px;
+    text-align: left;
+    margin-left: 20px;
+    margin-right: 10px;
+}
+.codeCollabexplain p{
+    font-size: 0.70em;
+    margin-bottom: 15px;
+    letter-spacing: 1px; 
+}
+.codeCollabexplain h1{
+    font-size: 1.45em;
+    font-weight: 630;
+    margin-right: 30px;
+    margin-bottom: 20px;
+}
+.codeCollabexplain h3{
+    font-weight: 450;
+    font-size: 1.25em;
+}
+.continuousdelivery{
+    background-color: white;
+}
+.deliveryimg img{
+    display: none;
+}
+.deliverymobile img{
+    width: 91%;
+    margin-top: 60px;
+    margin-bottom: 35px;
+}
+.CONTINUOUSDELIVERYexplain{
+    text-align: left;
+    margin-left: 20px;
+    margin-right: 10px;
+}
+.CONTINUOUSDELIVERYexplain p{
+    font-size: 0.70em;
+    margin-bottom: 15px;
+    letter-spacing: 1px; 
+}
+.CONTINUOUSDELIVERYexplain h1{
+    font-size: 1.45em;
+    font-weight: 630;
+    margin-right: 30px;
+    margin-bottom: 20px;
+}
+.CONTINUOUSDELIVERYexplain h3{
+    font-weight: 450;
+    font-size: 1.25em;
+}
+.learnmoreaboutdelivery{
+    margin-top: 20px;
+}
