@@ -1,8 +1,8 @@
 :root{
     /* Color Variables */
     --drkBlueGio: #253858; /* Main font Color */
-    --blue: #0052cc; /*Button and Link Color*/
-    --smoke: #f4f5f7; /*Card title bg color for standard and Demo box and Footer*/
+    --blueGio: #0052cc; /*Button and Link Color*/
+    --smokeGio: #f4f5f7; /*Card title bg color for standard and Demo box and Footer*/
 }
 
 /*--------General Stylings------*/
@@ -17,6 +17,9 @@
 
 
 /* Price Section Styling */
+#prices-Gio{
+    background-color:white;
+}
 
 #prices-Gio .section-wrapper-Gio{
     min-width: auto;
@@ -29,6 +32,12 @@
     grid-template-columns: 1;
 }
 
+.section-header,
+.card{
+    padding: 16px;
+}
+
+
 .section-header{
     box-sizing: border-box;
     min-width: auto;
@@ -36,26 +45,69 @@
     margin: 0 auto;
 }
 
-.section-header h2{
-    font-size: 36px;
-}
-
 .wrapper-Gio .card{
     min-width: 66.66%;
     max-width: 1fr;
 }
 
+.card{
+    height: 100%;
+}
+
+.card .card-title{
+    padding: 24px 12px;
+}
+
+.card-title, 
+.card-content{
+    background-color: white;
+}
+
+.standard .card-title{
+    background: var(--smokeGio);
+}
+
+.card .card-content{
+    padding-bottom: 54px;
+}
+
+.price-header{
+    font-size: 44px;
+    padding-top: 40px;
+    margin-bottom:12px;
+}
+
+.per-user{
+    font-size: 20px;
+}
+
+.users{
+    font-size: 14px;
+}
 
 
 
-
+.card-button{
+    text-decoration: none;
+    color: var(--blueGio);
+    font-weight: 500;
+    display: inline-block;
+    margin-top: 32px;
+    padding: 8.5px 16px;
+    margin-bottom: 24px;
+    border: 1px solid var(--blueGio);
+    border-radius: 3px;
+}
 
 /* Media Queries */
 
 @media (min-width: 362px){
-    .section-header{
-        /* padding: 16px;
-        background-color: red; */
+    .section-header h2{
+        font-size: 1.5rem;
+    }
+
+    .card-title h3{
+        font-size: 20px;
     }
 
 }
