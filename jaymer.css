@@ -49,7 +49,7 @@ nav{
 }
 
 /* MAIN */
-
+/* jaymer section 1 */
 main{
     padding-top: 80px;
     font-family: "Charlie Text", -apple-system, BlinkMacSystemFont,
@@ -110,7 +110,98 @@ main{
 }
 .sampleimg img{
     width: 95%;
+    margin-bottom: 30px;
 }
-.backgroundborder img{
 
+/* Jaymer Section 2 */
+.choices{
+    background-color: white;
+    margin-top: -4px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.backgroundsection2 img{
+    width: 100%;
+}
+.choices h4{
+    color: #253858;
+}
+.choices p{
+    color:#091E42;
+}
+.freeunlimited img{
+    width: 130px;
+    margin-top: 30px;
+}
+.freeunlimited h4{
+    margin-top: 10px;
+    font-weight: 500;
+    font-size: 1.20em;
+    margin-bottom: 15px;
+}
+.freeunlimited p{
+    font-size: 1.04em;
+    margin-left: 4px;
+    margin-right: 4px;
+}
+.freeunlimited p span{
+    margin-left: 15px;
+}
+.bestInClass img{
+    width: 210px;
+    margin-top: 30px;
+}
+.bestInClass h4{
+    font-size: 1.18em;
+    margin-top: 15px;
+    font-weight: 500;
+}
+.bestInClass p{
+    margin-top: 15px;
+    font-size: 1.04em;
+}
+.contineusdelivs img{
+    width: 160px;
+    margin-top: 30px;
+}
+.contineusdelivs h4{
+    font-size: 1.20em;
+    margin-left: 50px;
+    margin-right: 50px;
+    font-weight: 500;
+    margin-bottom: 18px;
+}
+.contineusdelivs p{
+    padding-bottom: 20px;
+}
+
+.codeCollaboration{
+    background-color: white;
+}
+.codeCollaboration h1,h3,p{
+    color: #253858
+}
+.imgcodecollab img{
+    width: 91%;
+}
+.codeCollabexplain{
+    margin-top: 35px;
+    text-align: left;
+    margin-left: 20px;
+    margin-right: 10px;
+}
+.codeCollabexplain p{
+    font-size: 0.70em;
+    margin-bottom: 15px;
+    letter-spacing: 1px; 
+}
+.codeCollabexplain h1{
+    font-size: 1.45em;
+    font-weight: 630;
+    margin-right: 30px;
+    margin-bottom: 20px;
+}
+.codeCollabexplain h3{
+    font-weight: 450;
+    font-size: 1.25em;
 }
