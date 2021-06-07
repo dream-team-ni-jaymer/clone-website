@@ -1,0 +1,33 @@
+@media (min-width: 1024px){
+    .column-lg-order-1 {
+        order: 1;
+    }
+
+    .column-lg-4 {
+        width: 33.33333%;
+        float: left;
+    }
+
+    .eyebrows {
+        margin-bottom: 16px;
+    }
+
+    .h2, h2 {
+        margin-bottom: 24px;
+    }
+    .column-lg-order-2 {
+        order: 2;
+    }
+    .column-lg-8 {
+        width: 66.66666%;
+        float: left;
+    }
+}
+
+@media (min-width: 768px) {
+    .h2, h2{
+        font-size: 2.25rem;
+        line-height: 1.33333333;
+    }
+}
+
