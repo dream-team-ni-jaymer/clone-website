@@ -63,8 +63,8 @@ main{
     color: #253858;
 }
 #jaymersection1 h1{
-    margin-left: 13px;
-    margin-right: 13px;
+    margin-left: 3%;
+    margin-right: 3%;
     padding-top: 22px;
     padding-bottom: 20px;
     font-size: 1.96em;
@@ -72,8 +72,8 @@ main{
 }
 #jaymersection1 h3{
     color: #42526E;
-    margin-right: 5px;
-    margin-left: 5px;
+    margin-right: 4%;
+    margin-left: 4%;
     font-weight: 500;
 }
 #jaymersection1 button{
@@ -93,6 +93,9 @@ main{
     margin-left: 20px;
     margin-right: 20px;
     margin-bottom: 20px;
+}
+.p1flex p span{
+    display: none;
 }
 .bitbucketlink{
     display: flex;
@@ -119,6 +122,7 @@ main{
     margin-top: -4px;
     padding-left: 10px;
     padding-right: 10px;
+    padding-bottom: 60px;
 }
 .backgroundsection2 img{
     width: 100%;
@@ -158,7 +162,7 @@ main{
 }
 .bestInClass p{
     margin-top: 15px;
-    font-size: 1.04em;
+    font-size: 1.02em;
 }
 .contineusdelivs img{
     width: 160px;
@@ -166,13 +170,14 @@ main{
 }
 .contineusdelivs h4{
     font-size: 1.20em;
-    margin-left: 50px;
-    margin-right: 50px;
+    margin-left: 20%;
+    margin-right: 20%;
     font-weight: 500;
     margin-bottom: 18px;
 }
 .contineusdelivs p{
-    padding-bottom: 20px;
+    margin-left: 5%;
+    margin-right: 5%;
 }
 
 .codeCollaboration{
@@ -182,7 +187,7 @@ main{
     color: #253858
 }
 .imgcodecollab img{
-    width: 91%;
+    width: 93%;
 }
 .codeCollabexplain{
     margin-top: 35px;
@@ -198,7 +203,7 @@ main{
 .codeCollabexplain h1{
     font-size: 1.45em;
     font-weight: 630;
-    margin-right: 30px;
+    margin-right: 20px;
     margin-bottom: 20px;
 }
 .codeCollabexplain h3{
@@ -212,7 +217,7 @@ main{
     display: none;
 }
 .deliverymobile img{
-    width: 91%;
+    width: 92%;
     margin-top: 60px;
     margin-bottom: 35px;
 }
@@ -231,6 +236,7 @@ main{
     font-weight: 630;
     margin-right: 30px;
     margin-bottom: 20px;
+    color: #253858;
 }
 .CONTINUOUSDELIVERYexplain h3{
     font-weight: 450;
@@ -239,3 +245,216 @@ main{
 .learnmoreaboutdelivery{
     margin-top: 20px;
 }
+.learnmoreaboutdelivery a{
+    text-decoration: none;
+    color: #2c6fd2;
+}
+
+
+
+
+@media (min-width: 540px) { 
+    .choices{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        justify-content: center;
+    }
+    .freeunlimited{
+        width: 95%;
+        margin-left: 10px;
+        margin: auto;
+    }
+    .freeunlimited h4{
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+    .freeunlimited p{
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    .bestInClass{
+        width: 95%;
+        margin-left: 10px;
+        margin: auto;
+    }
+    .bestInClass h4{
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+    .bestInClass p{
+        margin-left: 12px;
+        margin-right: 12px;
+    }
+    .contineusdelivs{
+        grid-column: 1/3;
+        width: 55%;
+        margin-left: 15%;
+        margin-right: 15%;
+        margin: auto;
+    }
+
+}
+
+@media (min-width: 650px) { 
+    .bitbucketlink{
+        display: none;
+    }
+    .p1flex p span{
+        display: inline;
+    }
+    .p1flex p span a{
+        text-decoration: none;
+        color: #0065FF;
+        font-size: 1.05em;
+    }
+ }
+
+@media (min-width: 768px) { 
+    #jaymersection1{
+        margin-left: 16.40%;
+        margin-right: 16.40%;
+    }
+    #jaymersection1 h1{
+        font-size: 2.60em;
+    }
+    .p1flex p span{
+        display: none;
+    }
+    .bitbucketlink{
+        display: block;
+    }
+    .choices{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        padding-bottom: 100px;
+    }
+    .choices h4{
+        font-size: 1.50em;
+    }
+    .contineusdelivs{
+        grid-column: 3/3;
+        width: 100%;
+    }
+    .contineusdelivs img{
+        padding-bottom: 20px;
+        margin-bottom: -12px;
+    }
+    .contineusdelivs h4{
+        margin-left: 1px;
+        margin-right: 1px;
+    }
+    .contineusdelivs p{
+        margin-top: -8px;
+    }
+    .imgcodecollab img{
+        width: 96%;
+    }
+    .codeCollabexplain h1{
+        font-size: 2.20em;
+    }
+    .codeCollabexplain{
+        padding-bottom: 60px;
+    }
+    .deliveryimg img{
+        display: block;
+        width: 95.60%;
+        margin: auto;
+        padding-bottom: 60px;
+    }
+    .deliverymobile img{
+        display: none;
+    }
+    .CONTINUOUSDELIVERYexplain h1{
+        font-size: 2.10em;
+    }
+ }
+
+
+
+@media (min-width: 1024px) { 
+    .dropdownicons1{
+        display: none;
+    }
+    .desktopnavbar{
+        display: block;
+        margin-bottom: 7px;
+    }
+    .desktopnavbar ul li{
+        display: inline;
+        position: relative;
+        bottom: 15px;
+        color:#1354cc;
+        font-size: 1.20em;
+    }
+    .firstli{
+        margin-left: 23.20%;
+    }
+    .logfree{
+        position: absolute;
+        bottom: -5px;
+        left: 80%;
+    }
+    .logfree ul li{
+        float: right;
+    }
+    .logfree ul li:first-child{
+        display: inline;
+        border: solid #2c6fd2 1px;
+        color: #2c6fd2;
+        padding: 2px;
+        position: relative;
+        bottom: 15px;
+        font-size: 1.04em;
+        border-radius: 3px;
+        padding-right: 10px;
+        padding-left: 10px;
+        font-weight: 500;
+    }
+    .desktopnavbar ul li span img{
+        transform: rotate(90deg);
+        width: 0.60%;
+        margin-left:8px ;
+    }
+    .logfree ul li:nth-child(2){
+        border: none;
+    }
+    .desktopnavbar ul li:not(:first-child){
+        margin-left: 25px;
+    }
+    .bitbucketlink{
+        display: none;
+    }
+    .p1flex p span{
+        display: inline;
+    }
+    .codeCollaboration{
+        display: flex;
+        padding-bottom: 60px;
+    }
+    .codeCollabexplain{
+        width: 90%;
+        padding-bottom: 0px;
+    }
+    .codeCollabexplain p{
+        padding-bottom: 20px;
+    }
+
+    .continuousdelivery{
+        display: flex;
+        flex-direction: row-reverse;
+    }
+    .deliveryimg img{
+        width: 100%;
+    }
+    .CONTINUOUSDELIVERYexplain{
+        width: 75%;
+        padding: 0px;
+    }
+    .CONTINUOUSDELIVERYexplain h1{
+        padding-right:0px ;
+    }
+ }
+
+@media (min-width: 1400px) { 
+
+ }
