@@ -205,3 +205,37 @@ main{
     font-weight: 450;
     font-size: 1.25em;
 }
+.continuousdelivery{
+    background-color: white;
+}
+.deliveryimg img{
+    display: none;
+}
+.deliverymobile img{
+    width: 91%;
+    margin-top: 60px;
+    margin-bottom: 35px;
+}
+.CONTINUOUSDELIVERYexplain{
+    text-align: left;
+    margin-left: 20px;
+    margin-right: 10px;
+}
+.CONTINUOUSDELIVERYexplain p{
+    font-size: 0.70em;
+    margin-bottom: 15px;
+    letter-spacing: 1px; 
+}
+.CONTINUOUSDELIVERYexplain h1{
+    font-size: 1.45em;
+    font-weight: 630;
+    margin-right: 30px;
+    margin-bottom: 20px;
+}
+.CONTINUOUSDELIVERYexplain h3{
+    font-weight: 450;
+    font-size: 1.25em;
+}
+.learnmoreaboutdelivery{
+    margin-top: 20px;
+}
