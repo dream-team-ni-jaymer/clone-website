@@ -123,16 +123,85 @@ main{
 .backgroundsection2 img{
     width: 100%;
 }
-.choices h3{
+.choices h4{
     color: #253858;
 }
+.choices p{
+    color:#091E42;
+}
 .freeunlimited img{
-    width: 37%;
+    width: 38%;
     margin-top: 30px;
 }
+.freeunlimited h4{
+    margin-top: 10px;
+    font-weight: 500;
+    font-size: 1.20em;
+    margin-bottom: 15px;
+}
+.freeunlimited p{
+    font-size: 1.04em;
+    margin-left: 4px;
+    margin-right: 4px;
+}
+.freeunlimited p span{
+    margin-left: 15px;
+}
 .bestInClass img{
-    width: 55%;
+    width: 60%;
+    margin-top: 30px;
+}
+.bestInClass h4{
+    font-size: 1.18em;
+    margin-top: 15px;
+    font-weight: 500;
+}
+.bestInClass p{
+    margin-top: 15px;
+    font-size: 1.04em;
 }
 .contineusdelivs img{
     width: 43%;
+    margin-top: 30px;
+}
+.contineusdelivs h4{
+    font-size: 1.20em;
+    margin-left: 50px;
+    margin-right: 50px;
+    font-weight: 500;
+    margin-bottom: 18px;
+}
+.contineusdelivs p{
+    padding-bottom: 20px;
+}
+
+.codeCollaboration{
+    background-color: white;
+}
+.codeCollaboration h1,h3,p{
+    color: #253858
+}
+.imgcodecollab img{
+    width: 91%;
+}
+.codeCollabexplain{
+    margin-top: 35px;
+    text-align: left;
+    margin-left: 20px;
+    margin-right: 10px;
+}
+.codeCollabexplain p{
+    font-size: 0.70em;
+    margin-bottom: 15px;
+    letter-spacing: 1px; 
+}
+.codeCollabexplain h1{
+    font-size: 1.45em;
+    font-weight: 630;
+    margin-right: 30px;
+    margin-bottom: 20px;
+}
+.codeCollabexplain h3{
+    font-weight: 450;
+    font-size: 1.25em;
 }
