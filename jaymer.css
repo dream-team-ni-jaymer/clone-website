@@ -583,8 +583,34 @@ main{
     .codeCollabexplain{
         width: 68%;
     }
+    .CONTINUOUSDELIVERYexplain h1{
+        font-size: 2.22em;
+    }
     .continuousdelivery{
-        padding-left: 7%;
-        padding-right: 7%;
+        padding-left: 9%;
+        padding-right: 9%;
+    }
+ }
+ @media (min-width: 1600px) {
+    .logowebsite img{
+        padding-left: 6%;
+    }
+    .desktopnavbar ul li{
+        left:2%;
+    }
+    .choices{
+        padding-left: 12%;
+        padding-right: 12%;
+    }
+    .codeCollaboration{
+        padding-left: 11%;
+        padding-right: 11%;
+    }
+    .continuousdelivery{
+        padding-left: 11%;
+        padding-right: 11%;
+    }
+    #jaymersection1 h3{
+        width: 85%;
     }
  }
