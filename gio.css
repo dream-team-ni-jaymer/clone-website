@@ -224,7 +224,6 @@ footer .wrapper-Gio,
     min-width: auto;
     max-width: 720;
     margin: 0 auto;
-    background-color: white;
 }
 
 #better-way h2{
@@ -316,6 +315,9 @@ footer h4{
     border-top: 2px solid #DFE1E5;
     padding: 25px 16px 16px 16px;
     text-align: center;
+    min-width: auto ;
+    max-width: 1200px;
+    margin: 0 auto;
 }
 
 .lower-footer-container .wrapper-Gio .col-1 .p,
@@ -480,6 +482,10 @@ footer a:hover{
 
     .col-1 .link-arrow-p{
         margin-bottom: 0;
+    }
+
+    #better-way-Gio{
+        background-size: 600px 300px , 600px 300px;
     }
 
     .lower-footer-container{
