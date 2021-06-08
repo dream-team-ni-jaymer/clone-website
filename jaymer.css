@@ -307,6 +307,10 @@ main{
         color: #0065FF;
         font-size: 1.05em;
     }
+    .bestInClass{
+        height: 100%;
+    }
+
  }
 
 @media (min-width: 768px) { 
@@ -342,6 +346,8 @@ main{
     .contineusdelivs h4{
         margin-left: 1px;
         margin-right: 1px;
+        padding-left: 10%;
+        padding-right: 10%;
     }
     .contineusdelivs p{
         margin-top: -8px;
@@ -367,6 +373,15 @@ main{
     .CONTINUOUSDELIVERYexplain h1{
         font-size: 2.10em;
     }
+    .freeunlimited{
+        height: 100%;
+    }
+    .bestInClass{
+        height: 100%;
+    }
+    .contineusdelivs{
+        height: 100%;
+    }
  }
 
 
@@ -385,14 +400,15 @@ main{
         bottom: 15px;
         color:#1354cc;
         font-size: 1.20em;
+        float: left;
     }
     .firstli{
-        margin-left: 23.20%;
+        margin-left: 23.65%;
     }
     .logfree{
         position: absolute;
-        bottom: -5px;
-        left: 80%;
+        bottom: -7px;
+        left: 82%;
     }
     .logfree ul li{
         float: right;
@@ -412,11 +428,12 @@ main{
     }
     .desktopnavbar ul li span img{
         transform: rotate(90deg);
-        width: 0.60%;
+        width: 5%;
         margin-left:8px ;
     }
     .logfree ul li:nth-child(2){
         border: none;
+        font-weight: 480;
     }
     .desktopnavbar ul li:not(:first-child){
         margin-left: 25px;
@@ -434,6 +451,7 @@ main{
     .codeCollabexplain{
         width: 90%;
         padding-bottom: 0px;
+        height: 100%;
     }
     .codeCollabexplain p{
         padding-bottom: 20px;
@@ -453,8 +471,120 @@ main{
     .CONTINUOUSDELIVERYexplain h1{
         padding-right:0px ;
     }
+    .contineusdelivs{
+        height: 100%;
+    }
  }
 
-@media (min-width: 1400px) { 
+@media (min-width: 1100px) {
+     .CONTINUOUSDELIVERYexplain h1{
+         font-size: 2.35em;
+     }
+     .learnmoreaboutdelivery{
+         font-size: 1em
+     }
+     .contineusdelivs h4{
+         width: 80%;
+         margin: auto;
+         padding-bottom: 21px;
+     }
 
+ }
+ @media (min-width: 1200px) {
+    .desktopnavbar{
+        margin-left:-4.50% ;
+    }
+    .freeunlimited h4{
+        width: 100%;
+        font-size: 1.40em;
+    }
+    .codeCollabexplain{
+        width: 72%;
+        height: 100%;
+        margin-right: 30px;
+    }
+    .codeCollabexplain h1{
+        font-size: 2em;
+    }
+    .deliveryimg img{
+        width: 100%;
+    }
+    .CONTINUOUSDELIVERYexplain{
+        width: 60%;
+        height: 100%;
+    }
+ }
+ @media (min-width: 1300px) {
+    .leftnavbar{
+        margin-left: 4%;
+    }
+    .choices{
+        padding-left: 4%;
+        padding-right: 4%;
+    }
+    .codeCollabexplain h1{
+        font-size: 2.20em;
+    }
+    .codeCollaboration{
+        padding-left: 5%;
+        padding-right: 2%;
+    }
+    .codeCollabexplain{
+        width: 80%;
+    }
+    .codeCollabexplain h3{
+        padding-right: 25px;
+    }
+    .continuousdelivery{
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+ }
+ @media (min-width: 1400px){
+    .leftnavbar{
+        margin-left: 7%;
+    }
+    .choices{
+        padding-right: 8%;
+        padding-left: 8%;
+    }
+    .logfree{
+        left: 80%;
+    }
+    .imgcodecollab img{
+        width: 95%;
+    }
+    .codeCollaboration{
+        padding-right: 4%;
+        padding-left: 5%;
+    }
+    .deliveryimg img{
+        width: 90%;
+    }
+    .CONTINUOUSDELIVERYexplain{
+        padding-right: 2%;
+        padding-left:2% ;
+    }
+ }
+ @media (min-width: 1500px){
+    .logowebsite img{
+        padding-left: 40px;
+    }
+    .logfree{
+        left: 76%;
+    }
+    .codeCollaboration{
+        padding-left: 7%;
+        padding-right: 7%;
+    }
+    .imgcodecollab img{
+        width: 90%;
+    }
+    .codeCollabexplain{
+        width: 68%;
+    }
+    .continuousdelivery{
+        padding-left: 7%;
+        padding-right: 7%;
+    }
  }
