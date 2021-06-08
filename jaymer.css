@@ -105,6 +105,9 @@ main{
     font-weight: bold;
     margin-bottom: 20px;
 }
+#jaymersection1 button:hover{
+    background-color: #0047B3;
+}
 .p1flex{
     margin-left: 20px;
     margin-right: 20px;
@@ -409,6 +412,9 @@ main{
     .getitfree2{
         display: none;
     }
+    .desktopnavbar ul li:hover{
+        color: #0098FF;
+    }
     .dropdownicons1{
         display: none;
     }
@@ -448,6 +454,10 @@ main{
         padding-left: 10px;
         font-weight: 500;   
     }
+    .logfree ul li:first-child:hover{
+        background-color: #EBECF0;
+        transition: 0.50s   ;
+    }
     .desktopnavbar ul li span img{
         transform: rotate(90deg);
         width: 5%;
@@ -457,8 +467,14 @@ main{
         border: none;
         font-weight: 480;
     }
+    .logfree ul li:nth-child(2):hover{
+        color: #0098FF;
+    }
     .desktopnavbar ul li:not(:first-child){
         margin-left: 25px;
+    }
+    .p1flex p span:hover{
+        border-bottom: solid #0065FF 1px;
     }
     .bitbucketlink{
         display: none;
@@ -495,6 +511,9 @@ main{
     }
     .contineusdelivs{
         height: 100%;
+    }
+    .learnmoreaboutdelivery a:hover{
+        border-bottom: solid #0076FF 1px;
     }
  }
 
