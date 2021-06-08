@@ -39,6 +39,22 @@ nav{
     border-radius: 3px;
     padding-right: 10px;
     padding-left: 10px;
+    font-weight: 500;   
+    display: none;
+}
+.getitfree2{
+    float: right;
+    position: relative;
+    bottom: 15px;
+    border: solid #2c6fd2 1px;
+    color: #2c6fd2;
+    padding:3px;
+    list-style-type: none;
+    margin-right: 16px;
+    font-size: 1.04em;
+    border-radius: 3px;
+    padding-right: 10px;
+    padding-left: 10px;
     font-weight: 500;
 }
 .desktopnavbar{
@@ -387,6 +403,12 @@ main{
 
 
 @media (min-width: 1024px) { 
+    .logfree ul li:nth-child(2){
+        display: block;
+    }
+    .getitfree2{
+        display: none;
+    }
     .dropdownicons1{
         display: none;
     }
@@ -424,7 +446,7 @@ main{
         border-radius: 3px;
         padding-right: 10px;
         padding-left: 10px;
-        font-weight: 500;
+        font-weight: 500;   
     }
     .desktopnavbar ul li span img{
         transform: rotate(90deg);
