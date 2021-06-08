@@ -393,9 +393,9 @@ footer a:hover{
 }
 
 @media (min-width: 540px){
-
     .card{
-        width: 100%
+        width: 66.66%;
+        margin: 0 auto;
     }
 
     .flex-Gio{
@@ -433,6 +433,10 @@ footer a:hover{
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) {
      
+    .card{
+        width: 100%;
+    }
+
     .section-header h2,
     .description h2,
     #better-way-Gio h2{
