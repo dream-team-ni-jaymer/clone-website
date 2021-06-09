@@ -359,6 +359,11 @@ footer a:hover{
     text-decoration: underline;
 }
 
+.link-arrow-p:hover {
+    text-decoration: underline;
+}
+
+
 /* Media Queries */
 
 @media (min-width: 362px){
