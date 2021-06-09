@@ -57,6 +57,10 @@ nav{
     padding-left: 10px;
     font-weight: 500;
 }
+.getitfree2:hover{
+    background-color: #EBECF0;
+    transition: 0.30s;
+}
 .desktopnavbar{
     display: none;
 }
@@ -126,6 +130,9 @@ main{
     text-decoration: none;
     color: #0065FF;
     font-size: 1.05em;
+}
+.bitbucketlink a:hover{
+    text-decoration: underline;
 }
 .bitbucketlink img{
     margin-top: 3px
@@ -267,6 +274,9 @@ main{
 .learnmoreaboutdelivery a{
     text-decoration: none;
     color: #2c6fd2;
+}
+.learnmoreaboutdelivery a:hover{
+    text-decoration: underline;
 }
 
 
@@ -474,7 +484,7 @@ main{
         margin-left: 25px;
     }
     .p1flex p span:hover{
-        border-bottom: solid #0065FF 1px;
+        text-decoration: underline;
     }
     .bitbucketlink{
         display: none;
@@ -513,7 +523,7 @@ main{
         height: 100%;
     }
     .learnmoreaboutdelivery a:hover{
-        border-bottom: solid #0076FF 1px;
+        text-decoration: underline;
     }
  }
 
