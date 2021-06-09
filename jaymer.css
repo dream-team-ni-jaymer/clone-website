@@ -618,6 +618,10 @@ main{
     }
  }
  @media (min-width: 1500px){
+     #jaymersection1 h3{
+         margin-left: 6.60%;
+         margin-right: 6.60%;
+     }
     .logowebsite img{
         padding-left: 40px;
     }
@@ -663,5 +667,8 @@ main{
     }
     #jaymersection1 h3{
         width: 85%;
+    }
+    .sampleimg img{
+        width: 88%;
     }
  }
